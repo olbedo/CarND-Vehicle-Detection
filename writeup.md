@@ -20,7 +20,7 @@ The goals / steps of this project are the following:
 [image3]: ./pics/examples.png
 [image4]: ./pics/boxes_heatmaps.png
 [image5]: ./pics/heatmap_final_boxes.png
-[video1]: ./project_video.mp4
+[video1]: ./project_video_LinSVC_CV_YUV_L10_T70.mp4
 
 ## Rubric Points
 **Here I will consider the rubric points individually and describe how I addressed each point in my implementation.**
@@ -72,9 +72,10 @@ Ultimately I searched on four scales using YUV 3-channel HOG features plus spati
 ### Video Implementation
 
 #### 1. Provide a link to your final video output.  Your pipeline should perform reasonably well on the entire project video (somewhat wobbly or unstable bounding boxes are ok as long as you are identifying the vehicles most of the time with minimal false positives.)
+
 I attached the video to the submission.
 
-Here's a [link to my video result](./project_video.mp4)
+Here's a [link to my video result](./project_video_LinSVC_CV_YUV_L10_T70.mp4)
 
 
 #### 2. Describe how (and identify where in your code) you implemented some kind of filter for false positives and some method for combining overlapping bounding boxes.
